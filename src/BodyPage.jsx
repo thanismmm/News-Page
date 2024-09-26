@@ -11,9 +11,15 @@ const BodyPage = () => {
 
   useEffect(() => {
     const fetchNews = () => {
-      fetch(`http://hn.algolia.com/api/v1/search?query=${squeryn}`)
-        .then((result) => result.json())
-        .then((data) => setNews(data.hits))
+      fetch(`https://hn.algolia.com/api/v1/search?query=${squeryn}`)
+        .then((result) => {
+          console.log(result);
+          return result.json();
+        })
+        .then((data) => {
+          console.log(data);
+          setNews(data.hits);
+        })
         .catch((error) => console.log(error));
     };
 
