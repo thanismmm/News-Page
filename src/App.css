@@ -103,9 +103,9 @@ input {
   font-size: 13px;
 }
 
-@media (min-width: 320px) {
+@media only screen and (max-width: 767px) {
   .news-content .title {
-    width: 100px;
+    width: 200px;
   }
 
   .news-content .title {
