@@ -1,10 +1,10 @@
-import Body from "./body";
+import BodyPage from "./BodyPage";
 import Bottompage from "./Bottompage";
 
 const App = () => {
   return (
     <>
-      <Body />
+      <BodyPage />
       <Bottompage />
     </>
   );

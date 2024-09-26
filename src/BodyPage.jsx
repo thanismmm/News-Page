@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const Body = () => {
+const BodyPage = () => {
   const [news, setNews] = useState([]);
   const [squeryn, setSquery] = useState("Cyber Crime");
 
@@ -40,4 +40,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default BodyPage;
