@@ -28,7 +28,7 @@ const BodyPage = () => {
 
   return (
     <div className="news">
-      <h1>News Page</h1>
+      <h1>News Page 2024</h1>
       <input type="text" value={squeryn} onChange={handeChange} />
       <div className="news-content">
         {news.map((n, i) => (
