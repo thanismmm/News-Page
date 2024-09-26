@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Bottompage from "./bottompage";
+import Bottompage from "./Bottompage";
 
 const App = () => {
   const [news, setNews] = useState([]);
