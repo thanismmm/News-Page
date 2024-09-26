@@ -102,3 +102,25 @@ input {
 .content .left p {
   font-size: 13px;
 }
+
+@media (min-width: 320px) {
+  .news-content .title {
+    width: 100px;
+  }
+
+  .news-content .title {
+    font-size: 12px;
+  }
+
+  .bottom .content {
+    justify-content: space-between;
+  }
+
+  .content .left {
+    width: 50%;
+  }
+
+  .content .right .link-item {
+    transform: translate(-35%, -20%);
+  }
+}
