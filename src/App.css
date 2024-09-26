@@ -105,7 +105,7 @@ input {
 
 @media only screen and (max-width: 767px) {
   .news-content .title {
-    width: 100px;
+    width: 150px;
   }
 
   .news-content .title {
