@@ -12,7 +12,7 @@ const Bottompage = () => {
             informed decisions.
           </p>
           <h5>076 3075 074</h5>
-          <h5>thanis@gmail.com</h5>
+          <h5>thanis7168t@gmail.com</h5>
         </div>
         <div className="right">
           <p>Usefull Website Links</p>
